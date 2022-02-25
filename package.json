@@ -1,0 +1,35 @@
+{
+    "name": "@nfjs/ei",
+    "version": "1.0.0",
+    "description": "Export & import",
+    "license": "MIT",
+    "type": "module",
+    "main": "index.js",
+    "repository": {
+        "url": "https://github.com/nf-framework/nf-ei.git"
+    },
+    "author": "The NF Project Authors",
+    "contributors": [
+        {
+            "name": "Dmitry Boikov",
+            "email": "boikovdv@gmail.com"
+        },
+        {
+            "name": "Andrey Maksimov",
+            "email": "andrmaxmail@gmail.com"
+        },
+        {
+            "name": "Azat Yamalov",
+            "email": "yamalov.azat@live.com"
+        }
+    ],
+    "dependencies": {
+        "@nfjs/back": "^1.0.0",
+        "clarinet": "^0.12.1",
+        "sax": "^1.2.4",
+        "pg-copy-streams": "^2.0.0"
+    },
+    "exports": {
+        ".": "./index.js"
+    }
+}
